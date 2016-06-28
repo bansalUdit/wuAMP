@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+		<title>Page 1</title>
+  </head>
+  <body style="font-family: arial; font-size: 14px;  background: #f1f1f1; ">
+  <div style="width:96%; margin: auto; padding:2%">
+	<h1>Hi, I am working!</h1>
+	
+	<p style="font-size: 20px;">Connected to ABC with ip 192.168.0.0 as abc.com up since 3rd July 3:00</p></br>
+	
+	<fieldset style="margin-bottom: 20px">
+		<legend style="font-size: 16px;"><strong>Sensor Configuration</strong></legend>
+	<div style="max-height:200px; overflow:auto; font-size:14px; line-height:24px;">	
+	<div>
+    <div style="width:20%;float:left;word-wrap: break-word;" >Sensor 1</div>
+    <div style="width:20%;float:left;word-wrap: break-word;" >Read</div>
+	<div style="width:30%;float:left;word-wrap: break-word;" >home/nodemcu/abc</div>
+	<div style="width:30%;float:left;word-wrap: break-word;" >some other remarks</div>
+    </div>
+	<div>
+    <div style="width:20%;float:left;word-wrap: break-word;" >Sensor 2</div>
+    <div style="width:20%;float:left;word-wrap: break-word;" >Write</div>
+	<div style="width:30%;float:left;word-wrap: break-word;" >home/nodemcu/led</div>
+	<div style="width:30%;float:left;word-wrap: break-word;" >some other remarks</div>
+    </div>
+	</div>
+	</fieldset>
+	
+	
+	<fieldset style="margin-bottom: 20px">
+		<legend style="font-size: 16px;"><strong>Logs</strong></legend>
+		<div style="max-height:250px; line-height:24px; overflow:auto">
+			<pre style="margin:5px;white-space: pre-wrap; white-space: -moz-pre-wrap;white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word;">
+2016-06-24 10:16:30,774 [jetty-7985 - /mobiliser/channel] INFO  com.wu.channelservices.businesslogic.impl.ChannelServicesLogicImpl S:METHOD_NAME=GwpGetAgentLocations : WebAppSessionId= : ChannelSessionId=retail-MOBGB-8a84a09c-557da8b4-0155-82befdae-015c : ClientIp=065162175019 :  - agentLocations.agentLocation[2].sandpIndicator: O
+2016-06-24 10:16:30,775 [jetty-7985 - /mobiliser/channel] INFO  com.wu.channelservices.businesslogic.impl.ChannelServicesLogicImpl S:METHOD_NAME=GwpGetAgentLocations : WebAppSessionId= : ChannelSessionId=retail-MOBGB-8a84a09c-557da8b4-0155-82befdae-015c : ClientIp=065162175019 :  - agentLocations.agentLocation[2].countryName: United Kingdom
+2016-06-24 10:16:30,775 [jetty-7985 - /mobiliser/channel] INFO  com.wu.channelservices.businesslogic.impl.ChannelServicesLogicImpl S:METHOD_NAME=GwpGetAgentLocations : WebAppSessionId= : ChannelSessionId=retail-MOBGB-8a84a09c-557da8b4-0155-82befdae-015c : ClientIp=065162175019 :  - agentLocations.agentLocation[2].latitude: 53.56694
+2016-06-24 10:16:30,775 [jetty-7985 - /mobiliser/channel] INFO  com.wu.channelservices.businesslogic.impl.ChannelServicesLogicImpl S:METHOD_NAME=GwpGetAgentLocations : WebAppSessionId= : ChannelSessionId=retail-MOBGB-8a84a09c-557da8b4-0155-82befdae-015c : ClientIp=065162175019 :  - agentLocations.agentLocation[2].name: MOBILE ZONE
+2016-06-24 10:16:30,775 [jetty-7985 - /mobiliser/channel] INFO  com.wu.channelservices.businesslogic.impl.ChannelServicesLogicImpl S:METHOD_NAME=GwpGetAgentLocations : WebAppSessionId= : ChannelSessionId=retail-MOBGB-8a84a09c-557da8b4-0155-82befdae-015c : ClientIp=065162175019 :  - agentLocations.agentLocation[2].services: prepaidServices,moneyTransfer,quickPay
+2016-06-24 10:16:30,775 [jetty-7985 - /mobiliser/channel] INFO  com.wu.channelservices.businesslogic.impl.ChannelServicesLogicImpl S:METHOD_NAME=GwpGetAgentLocations : WebAppSessionId= : ChannelSessionId=retail-MOBGB-8a84a09c-557da8b4-0155-82befdae-015c : ClientIp=065162175019 :  - agentLocations.agentLocation[2].sundayDesktopHours: 10:00 AM - 9:00 PM
+			
+			</pre>
+		
+		</div>
+	</fieldset>
+	  <div style="width:60%;float:left;">
+ <button style="margin:0 10px 5px 0;padding:5px;">Button 1</button>
+ <button style="margin:0 10px 5px 0;padding:5px;">Button 2</button>
+ <button style="margin:0 10px 5px 0;padding:5px;">Button 3</button>
+ <button style="margin:0 10px 5px 0;padding:5px;">Button 4</button>
+	</div>
+	</div>
+  </body>
+</html>
